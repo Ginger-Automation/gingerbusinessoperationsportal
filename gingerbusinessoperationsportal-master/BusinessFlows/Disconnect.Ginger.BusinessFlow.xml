@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="da10c863-7708-4251-a0e8-e7176b27e247" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181349" GingerVersion="3.5.0.0" Version="8" LastUpdateBy="JGHODKE" LastUpdate="202002240952" />
+<BusinessFlow Guid="da10c863-7708-4251-a0e8-e7176b27e247" Name="Disconnect" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1a005577-d3b0-4479-b853-52202c7591e4" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="3577bfe5-9732-4483-8067-5dcf11ca8c3f" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="23ee2580-2593-4755-a364-21623674a3ec" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="7dc8c539-8f22-4818-87c8-36737bf51954" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="56824004-21fc-46ee-8891-4b6a40b446dc" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="a9d6a367-f21a-4c6a-8ab3-f0fddeb082df" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1a005577-d3b0-4479-b853-52202c7591e4" ActivityName="Activity 1" Guid="5975909c-ce5e-49be-a9c9-f71de3dc738d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="178d2c10-9048-4ea8-9235-045d4c825663" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="bae02263-5f42-47bf-99fe-8833ab04d2c7" MappedOutputType="None" Name="Account Id" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="da87eb00-0d49-444c-9a75-c137482ddac8" MappedOutputType="None" Name="Smart Card" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="b9ee43d6-c0a6-4b4f-8775-52c322b23059" MappedOutputType="None" Name="Order Id" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

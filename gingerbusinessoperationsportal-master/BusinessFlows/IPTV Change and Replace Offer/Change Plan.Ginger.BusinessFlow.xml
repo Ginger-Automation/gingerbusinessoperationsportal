@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="3787aa3e-71a3-4338-a5ff-9190f65cca22" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="202005250954" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="JGHODKE" LastUpdate="202005251052" />
+<BusinessFlow Guid="3787aa3e-71a3-4338-a5ff-9190f65cca22" Name="Change Plan" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="ed1545b1-3026-4c75-b8c4-a263213b0661" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="046fbedf-8969-4632-ba55-e9c370928d72" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActValidation Active="True" Description="Condition Validation Action" Guid="4eec9c14-8b45-429b-bc51-6ad850437081" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="06f4f0c4-c3fd-4560-8596-ef31567d8cd4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="a6c104db-bdf9-4b52-a314-965fe01f119e" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ed1545b1-3026-4c75-b8c4-a263213b0661" ActivityName="Activity 1" Guid="d26c920c-dc81-4f14-ba5c-e646e1712508" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="0bfc4e1b-af17-4dfe-8b96-671eb77c5696" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="dcda8852-5da3-45fb-8c88-908ba8bcd17c" MappedOutputType="None" Name="Account Number" ParentGuid="3787aa3e-71a3-4338-a5ff-9190f65cca22" ParentName="Change Plan" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

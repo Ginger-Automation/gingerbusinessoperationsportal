@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="756a712b-f157-45b5-8be1-274c9b89da5d" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181349" GingerVersion="3.5.0.0" Version="7" LastUpdateBy="JGHODKE" LastUpdate="202005181315" />
+<BusinessFlow Guid="756a712b-f157-45b5-8be1-274c9b89da5d" Name="Attach Order" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5aff2c8c-95a6-4f58-95a1-6925eeda18ee" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="542a3a5c-278b-4a80-ba55-ad24880d6655" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActValidation Active="True" Description="Condition Validation Action" Guid="33976937-af6a-4b19-b4fc-28e9e7351670" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="79f2bf3b-d497-46f4-99fa-fe00019d3265" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="2c0fc52d-8b80-4383-8a11-df3f0e2d9298" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5aff2c8c-95a6-4f58-95a1-6925eeda18ee" ActivityName="Activity 1" Guid="57249c2f-fa25-46ac-8ae5-4b333d45a4da" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="5961db8c-ebf2-443e-a684-877803aa4cd7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="437dd7de-aba0-43f9-b031-26a50ecbf4ff" MappedOutputType="None" Name="Account Id" ParentGuid="756a712b-f157-45b5-8be1-274c9b89da5d" ParentName="Attach Order" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="3bdfd1fe-17fa-4879-b5da-0db2eff63b47" MappedOutputType="None" Name="Order Id" ParentGuid="756a712b-f157-45b5-8be1-274c9b89da5d" ParentName="Attach Order" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bb3ebf20-ce97-4ce4-a00a-0937a8b6a599" ItemType="ProjEnvironment" CreatedBy="JGHODKE" Created="201912181347" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202002240655" />
+<ProjEnvironment Guid="bb3ebf20-ce97-4ce4-a00a-0937a8b6a599" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Applications>
+<EnvApplication Active="True" Guid="e19cac40-3a41-43b7-9dd9-9983a37d3593" Name="MyJavaApp" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Dbs>
+<Database DBType="Oracle" Guid="8c1ad0f9-2f91-4835-9744-29b6469d579e" KeepConnectionOpen="False" Name="New" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Dbs>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

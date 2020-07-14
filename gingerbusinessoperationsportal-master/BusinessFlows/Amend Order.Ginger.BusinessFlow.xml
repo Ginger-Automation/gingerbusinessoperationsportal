@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5e9bce71-7ae1-4c26-98f9-484e69b85cc4" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181349" GingerVersion="3.5.0.0" Version="5" LastUpdateBy="JGHODKE" LastUpdate="202002240953" />
+<BusinessFlow Guid="5e9bce71-7ae1-4c26-98f9-484e69b85cc4" Name="Amend Order" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="32c41cbc-1f6c-413b-8115-d7c2a3c7a221" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="48068e9a-b376-47e6-9402-518ff1b9e88a" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="a33b503f-bc6d-44c2-8de4-16da4427e581" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="32c41cbc-1f6c-413b-8115-d7c2a3c7a221" ActivityName="Activity 1" Guid="92c0b71a-aac2-4a1d-9f71-331f47bf9c51" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="efb4afdb-64f7-48d3-99bc-5f4938c63fcd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="86bfe24d-9b84-494d-a3f6-f63bb95ac17c" MappedOutputType="None" Name="Account ID" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="6377061a-7705-48b8-8bc8-274b8ef228ae" MappedOutputType="None" Name="Order ID" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsInputValue="False" />
+<VariableString Guid="95a5eaa8-15ee-400b-b650-67249aae6944" MappedOutputType="None" Name="CFP1" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="6d60738e-bdef-4b2c-9f84-47909a345c3b" MappedOutputType="None" Name="CPF1_Start Date" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="0ed1e8df-9087-4f8a-a59f-7578c8e8ed54" MappedOutputType="None" Name="CFP1_End Date" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="403771c9-3f7c-4493-b7ef-3388b4693b3c" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="202002290647" GingerVersion="3.5.0.0" Version="13" LastUpdateBy="JGHODKE" LastUpdate="202002290811" />
+<BusinessFlow Guid="403771c9-3f7c-4493-b7ef-3388b4693b3c" Name="Check Account Status" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="637e542e-aef3-4488-89cd-2e5df69e0d73" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="5dfb3bc6-74b4-434d-9433-8c1026117fe6" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8fe3b558-5947-4631-9ae0-cf20af0a4bde" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="782a4148-904a-414a-9080-cbedd9d4891a" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="Account Status" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b420954f-40d4-456c-b5eb-a2009ccf3ceb" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Active" />
+</InputValues>
+</ActSetVariableValue>
+<ActValidation Active="True" Description="Check scenario name" Guid="3a4aec75-8411-49fa-867a-507bbc3d6b7d" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b6747d4-141f-4c1c-ba10-b0ee72900797" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{CS Exp=@&quot;{Var Name=Scenario Name}&quot;.Contains(@&quot;Mass De Install&quot;)}" />
+</InputValues>
+</ActValidation>
+<ActDummy Active="True" Description="Dummy Action" Guid="33b5af29-4b50-46d6-aae8-386366a13bdd" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="9ebdeeb2-2aab-4013-87d6-b1ad777abde9" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="637e542e-aef3-4488-89cd-2e5df69e0d73" ActivityName="Activity 1" Guid="98f3e476-d77f-4a89-8541-44a0ac065f43" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="9a04cdde-011b-4fa3-8833-03e68b64d67b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="a7cdab09-ce90-43e0-a29f-4251c7c8d2d3" MappedOutputType="None" Name="Account Status" ParentGuid="403771c9-3f7c-4493-b7ef-3388b4693b3c" ParentName="Check Account Status" ParentType="Business Flow" SetAsInputValue="False" />
+<VariableString Guid="f945d1bc-0bf3-4758-b706-93d0e48586ae" MappedOutputType="None" Name="Scenario Name" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

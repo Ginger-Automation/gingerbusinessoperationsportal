@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f23a7ead-af3c-456a-8d2b-1ebff9451654" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181348" GingerVersion="3.5.0.0" Version="10" LastUpdateBy="JGHODKE" LastUpdate="202002240953" />
+<BusinessFlow Guid="f23a7ead-af3c-456a-8d2b-1ebff9451654" Name="CreateNewDTHAccount" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1ff3a082-05f1-4615-a6a9-7c4abed8ba23" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="37eb310c-e959-4510-8e19-76f15191dc66" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="f99f5214-8ff8-4212-a896-cb86445d0488" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1ff3a082-05f1-4615-a6a9-7c4abed8ba23" ActivityName="Activity 1" Guid="7418f796-155e-41fd-b118-21e2b6722530" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="b0c8cc0a-766c-4177-8850-813244795d9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="b63bb0c6-95d4-442e-a07c-2b6fb7e616ef" MappedOutputType="None" Name="Account Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="e6511d85-cd05-4a9d-b4f8-6919923bd057" MappedOutputType="None" Name="Customer Name" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="9f9b6ebb-da64-4115-9e95-ef10f89e4d8a" MappedOutputType="None" Name="New Account Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

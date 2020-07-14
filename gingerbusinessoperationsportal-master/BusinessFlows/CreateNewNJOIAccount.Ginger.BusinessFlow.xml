@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181348" GingerVersion="3.6.0.0" Version="17" LastUpdateBy="JGHODKE" LastUpdate="202006121447" />
+<BusinessFlow Description="*" Elapsed="657" Guid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" Name="CreateNewNJOIAccount" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1ff3a082-05f1-4615-a6a9-7c4abed8ba23" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="83dc34a0-c824-4aef-8788-873a1f3a73e6" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="New Account Number" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6acd103f-015c-4336-b515-5dd89aa94b3a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1121" />
+</InputValues>
+</ActSetVariableValue>
+<ActValidation Active="True" Description="Condition Validation Action" Guid="7f2e1e03-d18f-4c95-ba50-c6b7d2760734" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="b2f48591-f426-4384-8db9-db6f678b48f6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+</InputValues>
+</ActValidation>
+<ActDummy Active="True" Description="Dummy Action" Guid="fcbeee36-aba9-4a59-83d7-6533cdebf2da" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="f99f5214-8ff8-4212-a896-cb86445d0488" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1ff3a082-05f1-4615-a6a9-7c4abed8ba23" ActivityName="Activity 1" Guid="40c49b69-414b-431c-96c1-b50df42e26f8" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="bcdef89d-d08c-4019-8c89-f5ba213354fc" LastExecutingAgentName="MyJavaApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="b63bb0c6-95d4-442e-a07c-2b6fb7e616ef" MappedOutputType="None" Name="Account Id" ParentGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" ParentName="CreateNewNJOIAccount" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="e6511d85-cd05-4a9d-b4f8-6919923bd057" MappedOutputType="None" Name="Account Name" ParentGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" ParentName="CreateNewNJOIAccount" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="34c600a4-0370-4458-ba09-9a9b9a85c1d6" MappedOutputType="None" Name="Postal Code" ParentGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" ParentName="CreateNewNJOIAccount" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="9f9b6ebb-da64-4115-9e95-ef10f89e4d8a" InitialStringValue="1121" MappedOutputType="None" Name="New Account Number" ParentGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" ParentName="CreateNewNJOIAccount" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4ce48dd9-9b97-452e-b698-7cc851d3a99f" ItemType="Activity" CreatedBy="JGHODKE" Created="202005270620" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202005270620" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Enter Values" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="4ce48dd9-9b97-452e-b698-7cc851d3a99f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActUIElement Active="True" Description="Set Text Box 'txtEmployeeID'" Guid="bf1232d0-240d-4c6f-9466-fcdb1629547c" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="276ebc19-cd1e-4576-ab65-1f3df9d99592" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="d8510bf4-73aa-4a82-a0c7-f6e94602c893" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/Internal Frame 1/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/JPanel1/[[Name:txtEmployeeID][ClassName:javax.swing.JTextField]]" />
+<ActInputValue Guid="0f0f97c9-b170-4b38-ae58-19f9a53bd0c8" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="112" />
+<ActInputValue Guid="a54d6da5-b30d-4303-a4b9-12713fc56830" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="9d65c7e1-24dc-4643-96eb-db70149c8548" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetValue" />
+<ActInputValue Guid="6cee173b-5c49-4b18-8a15-b8616067102b" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="8cabb33f-26cf-48c4-96e7-eadc04cf492d" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="4ab8a56e-eb21-4209-a2f4-780d1257579f" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="25f38337-fd10-4796-8ca5-758eeccc40ea" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click checkBox 'true'" Guid="16586bf1-3a47-480f-b21c-8b81d39aea15" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a9d8c27e-2b29-4497-b358-4f7e546453e7" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="2c387beb-4ca3-43fe-b600-21b871207f3c" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/Internal Frame 1/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/JPanel1/[[Name:cbWorksAtAmdocs][ClassName:javax.swing.JCheckBox]]" />
+<ActInputValue Guid="47674525-6086-4271-afad-5ab11671bddd" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="CheckBox" />
+<ActInputValue Guid="32379368-fa2e-498c-b751-5b364b5f9aa3" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Toggle" />
+<ActInputValue Guid="e8f1d17d-c07f-4a24-ab7c-95dfe748785f" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="3569a766-8032-4336-b780-44f672d9ec50" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="ca961c8e-5a1f-4ed5-81dd-d78c67fd88d6" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="59c3c625-c8b7-482c-a4b7-c880938a4d78" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Select RadioButton'Bachelor'" Guid="6ddb468a-9fe1-4329-a900-bc82e5ccc90b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="49dc5241-4e59-4fe6-9df2-ec33a8bcf4d0" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="bec58373-9eb3-461f-9840-f36658ec1ceb" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/Internal Frame 1/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/JPanel1/[[Name:rbBachelor][ClassName:javax.swing.JRadioButton]]" />
+<ActInputValue Guid="ee8e97a7-b070-497d-982b-d66549a1524d" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="RadioButton" />
+<ActInputValue Guid="22ea5951-d471-47e9-a632-0e9541498201" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Select" />
+<ActInputValue Guid="4e6f0e7a-ae84-49b6-bd7f-0b03becef93d" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="43aa909b-7787-4a92-89d2-8bf920ad63ba" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="0a1c7864-440e-466d-873a-0f31356824a8" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="9262984f-1f3a-4902-9bce-03052ff52173" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="AsyncClick : btnSubmit" Guid="afacd3b6-224b-4195-b840-c7ba80717b5e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="fb56f521-5ddb-4276-bb60-9719937858ca" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AsyncClick" />
+<ActInputValue Guid="1578cb6e-959e-4b95-8398-8c27c68143a1" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="cee76da6-260f-4acf-887b-bf5ea1dbb505" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="51d7fdfe-ccd3-4d5d-b713-f413e985b965" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByName" />
+<ActInputValue Guid="cd206c12-bed6-4d7e-8d43-cd38de2c7b50" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="btnSubmit" />
+<ActInputValue Guid="5513025a-35ec-4f1e-8f5c-bae0d1ab6ec7" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="41507535-2ef4-4470-bafd-ebdf2ca2f673" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="5df9bf1c-7515-4377-8149-2e517cf8f508" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="efed1344-b2f6-428a-baca-dfe9caa20132" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UI Switch Window - Message" Guid="a5b7b36d-9f38-4605-83b6-d37752231a14" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="AllAvailableWindows">
+<InputValues>
+<ActInputValue Guid="fae928b9-9751-46b5-9d42-151e36cc387b" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByTitle" />
+<ActInputValue Guid="5f899663-f2a4-4a45-b6ce-8a7c907dec3e" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Message" />
+<ActInputValue Guid="d8126e54-8f1f-470b-9693-7f6e67c69358" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Window" />
+<ActInputValue Guid="b09319a3-d898-4bdb-b515-e00e32ecec3d" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Switch" />
+<ActInputValue Guid="8017596b-59ac-4840-b490-6cecf2807ada" Param="SyncTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+<ActInputValue Guid="079e94ec-4f64-4424-955b-aec603a45ed3" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="08a3894c-5b9e-4af0-b914-ce9b5af79018" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="e7146114-029c-44b8-b4bc-98fd748589fd" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="60dc206c-348d-4036-9df9-6e5fa03fdc4b" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click : JButton[0]" Guid="7d3ce811-087f-49c9-8e3c-f860dd359933" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="67c9a7d4-6864-4b4b-8784-9ea0eb568ce1" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="445b58b3-2084-4ba4-a98a-ced46528a529" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="6052f6d0-1126-4546-bf5a-778735e08ae6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="2c94fc7c-2f02-4736-9ec2-ac8821218d4a" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByXPath" />
+<ActInputValue Guid="73ca4570-cb73-4f4b-a3e7-75799a7740e4" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JOptionPane[0]/OptionPane.buttonArea/javax.swing.JButton[0]" />
+<ActInputValue Guid="5c1031a6-b99e-45ee-bd82-493ea7a14c93" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9b33cfcc-e6c3-4b5d-94ae-c9e2f6874e4e" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="822ea1fe-33bb-4bde-80eb-266be09394a5" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="f2813972-6555-4fed-a9c1-6c6545aba777" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="8df34146-fea5-45db-a31b-6e661f1681f6" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="UI Switch Window - Java Swing Test App" Guid="4b036021-d35e-4cb5-92e5-9f421cedc6ba" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="46f866bc-3b79-4607-89e5-5af160c616cd" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByTitle" />
+<ActInputValue Guid="3cabe200-c41e-46ca-a98c-8bd3f982de58" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Java Swing Test App" />
+<ActInputValue Guid="e38fe049-e36e-4489-b683-4c7a53109b1d" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Window" />
+<ActInputValue Guid="0c168540-7c9c-4a16-a3e4-168cf9cb6378" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Switch" />
+<ActInputValue Guid="1b357f12-d3b4-4444-b468-b709572fdbad" Param="SyncTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+<ActInputValue Guid="e5bd0062-33ed-4928-9126-cb26d8b5e9c6" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="8d0772c2-8836-47cb-805b-a8dee62c10c4" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="f6077473-c7eb-45b0-a86f-92a12dec635d" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="cb55d724-f700-477e-8e09-405417e9f3a0" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>

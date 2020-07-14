@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="068dc6a0-ef14-43fe-82f6-7700008f5476" ItemType="RunSetConfig" CreatedBy="JGHODKE" Created="202004170546" GingerVersion="3.5.0.0" Version="3" LastUpdateBy="JGHODKE" LastUpdate="202005250955" />
+<RunSetConfig Guid="068dc6a0-ef14-43fe-82f6-7700008f5476" Name="IPTV Replace Offer" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="0211ac3d-8939-4216-93ec-5f3b9ac21971" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="91c27882-5f3b-4faa-ad90-d5ca4db46a0d" AgentName="MyJavaApp - Agent 1" AppID="59492633-ac04-44b5-a00a-e3e433a455bc" AppName="MyJavaApp" Guid="abce30f7-1417-493c-9b02-803dfa4581fd" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" BusinessFlowInstanceGuid="f9a776ec-a947-4b24-a0bc-74b4a73259c0" BusinessFlowIsActive="True" BusinessFlowName="Replace Offer" Guid="40f7ac24-7f07-411c-8636-22675dcc45a3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

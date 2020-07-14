@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c0831664-1866-4315-8e7c-f7be5c5cd87c" ItemType="Solution" CreatedBy="JGHODKE" Created="201912181347" GingerVersion="3.6.0.0" Version="11" LastUpdateBy="JGHODKE" LastUpdate="202005270648" />
+<Solution AlmType="QC" Guid="c0831664-1866-4315-8e7c-f7be5c5cd87c" Name="GingerDemoSolution" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyJavaApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="59492633-ac04-44b5-a00a-e3e433a455bc" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Java" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration CentralLoggerEndPointUrl="http://ilrnaginger01:7999/api" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="03ea94fe-7622-4b73-a02b-a07d058574f0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="Yes" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="b9b0e50e-86aa-49d2-99e9-b84c5efd0da1" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+
+<Variables>
+<VariableString Guid="5c8691b3-c14e-4000-a9cc-1df116dd6ad3" InitialStringValue="15100" MappedOutputType="None" Name="gbl_Port" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="1324fd7a-8ef9-4b01-b1b9-3ea81c64f50c" InitialStringValue="a" MappedOutputType="None" Name="gbl_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" ParentName="De-Install\Group\Init Variables" ParentType="Activity" />
+</Variables>
+</Solution></GingerRepositoryItem>

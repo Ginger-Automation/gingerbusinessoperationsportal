@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181348" GingerVersion="3.5.0.0" Version="17" LastUpdateBy="JGHODKE" LastUpdate="202005181307" />
+<BusinessFlow Description="*" Guid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" Name="NJOI Provide" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="c358c250-532a-426a-9ae0-4d99b6de3ec0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="50%" TargetApplication="MyJavaApp">
+<Acts>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="70ec0d4b-7b61-4df6-b0bd-39b40e485cdb" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="Order ID" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0d70930c-4665-44e9-be66-05ff03683fab" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="777" />
+</InputValues>
+</ActSetVariableValue>
+<ActValidation Description="Condition Validation Action" Guid="84e14cb4-8da1-49ed-9e35-4fbcf13bf2f0" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="33e8232f-eb3a-4b6b-ac39-eee4b89ef324" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1==2" />
+</InputValues>
+</ActValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="05b73e85-11bc-4a09-80e7-f0992a96f315" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c358c250-532a-426a-9ae0-4d99b6de3ec0" ActivityName="Activity 1" Guid="90ce12d9-6509-43be-b48a-fb628d6f517a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="97d581b1-2293-427e-bf03-445f29296f26" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="778f2be9-369a-4d10-b3d1-a1a1ca17c8e5" MappedOutputType="None" Name="Account Number" ParentGuid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" ParentName="NJOI Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="464ecd28-504f-44ab-853d-7184fad8cbfe" MappedOutputType="None" Name="New Campaign Code" ParentGuid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" ParentName="NJOI Provide" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="cb98c1e8-b049-426d-82f0-be95c7563457" MappedOutputType="None" Name="Order ID" ParentGuid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" ParentName="NJOI Provide" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

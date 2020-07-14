@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="91b645b7-ab04-4b79-9193-2ef8342abb79" ItemType="RunSetConfig" CreatedBy="JGHODKE" Created="201912181442" GingerVersion="3.5.0.0" Version="20" LastUpdateBy="JGHODKE" LastUpdate="202002290750" />
+<RunSetConfig Guid="91b645b7-ab04-4b79-9193-2ef8342abb79" Name="Mass De Install" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="a71ee4e9-52ca-4721-8c6c-0c2bfa4708e9" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="StopAllBusinessFlows">
+<ApplicationAgents>
+<ApplicationAgent AgentID="91c27882-5f3b-4faa-ad90-d5ca4db46a0d" AgentName="MyJavaApp - Agent 1" AppID="59492633-ac04-44b5-a00a-e3e433a455bc" AppName="MyJavaApp" Guid="bd0d8945-eb1f-4c34-8788-851e5f06525b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="403771c9-3f7c-4493-b7ef-3388b4693b3c" BusinessFlowInstanceGuid="4ae3df44-afca-494e-b91f-921d4362addd" BusinessFlowIsActive="True" BusinessFlowName="Check Account Status" Guid="9bd915c4-0f6c-4cf9-8a89-863decc53f19" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BFFlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" Condition="{CS Exp=@&quot;{Var Name=Account Status}&quot;.Contains(@&quot;Active&quot;)}" FlowControlAction="GoToAction" Guid="163c21d1-0596-4a6b-a67b-8917988170e4" Operator="CSharp" ParentGuid="00000000-0000-0000-0000-000000000000" Value="026682f0-6916-4102-9d35-2c54cbd48a5f#GUID_NAME#De-Install" />
+</BFFlowControls>
+</BusinessFlowRun>
+<BusinessFlowRun BusinessFlowGuid="1812150e-65d4-41cd-b1d8-860ef648004c" BusinessFlowInstanceGuid="3ed7e341-010b-45e0-84f0-51d90477af69" BusinessFlowIsActive="True" BusinessFlowName="Reconnect" Guid="d8991b09-bbb3-41d2-87e6-8db332e3b9f6" ParentGuid="00000000-0000-0000-0000-000000000000">
+<BFFlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="StopRun" Condition="1=1" FlowControlAction="GoToNextAction" Guid="8a038836-0dff-487e-9b4c-904b911d61e9" Operator="CSharp" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BFFlowControls>
+</BusinessFlowRun>
+<BusinessFlowRun BusinessFlowGuid="da10c863-7708-4251-a0e8-e7176b27e247" BusinessFlowInstanceGuid="adcd8176-64ff-4d47-b7d8-d5d4d57650fb" BusinessFlowIsActive="True" BusinessFlowName="Disconnect" Guid="0e05fd20-9e06-4fc0-9ff2-41ffd12daba4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="05a04670-317c-4a50-ba78-9cb28b08cb83" BusinessFlowInstanceGuid="026682f0-6916-4102-9d35-2c54cbd48a5f" BusinessFlowIsActive="True" BusinessFlowName="De-Install" Guid="a6085c0c-42ca-4246-a0b0-09a1b299f4de" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

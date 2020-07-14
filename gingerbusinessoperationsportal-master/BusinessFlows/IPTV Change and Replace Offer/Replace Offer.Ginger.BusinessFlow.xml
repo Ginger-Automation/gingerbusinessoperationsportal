@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="202004170536" GingerVersion="3.5.0.0" Version="14" LastUpdateBy="JGHODKE" LastUpdate="202005251053" />
+<BusinessFlow Guid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" Name="Replace Offer" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="46f7dbec-070a-4782-a181-f3830894e61f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="d2819cf6-fc96-489c-a74f-8911e5585c59" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActValidation Active="True" Description="Condition Validation Action" Guid="7bc5b4da-ab09-421e-88c5-6cd894bd1f5d" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="77725e2f-44c7-454a-8587-80bb080cf045" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+</InputValues>
+</ActValidation>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="38659fee-1f8b-4f56-b659-962281d40f17" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="Order Id" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="1d5ce829-bf12-42e7-8b01-b1cb146f1628" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1234A" />
+</InputValues>
+</ActSetVariableValue>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="bdaea1a6-fea6-45c5-9f2d-6f6b71c52fa5" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="46f7dbec-070a-4782-a181-f3830894e61f" ActivityName="Activity 1" Guid="7cb71ba5-6312-47a3-a01f-6212713c433e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="cbe597ba-8409-4685-a5e5-cc5aa2e61f41" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="8d4bc5d5-85e3-4885-a5ec-b9051cf46066" MappedOutputType="None" Name="Account Number" ParentGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" ParentName="Replace Offer" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="b3158192-1877-43f1-9ea6-21a858101fe3" MappedOutputType="None" Name="Campaign Code" ParentGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" ParentName="Replace Offer" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="f68d8203-ae7c-4d91-aaaa-06f61233a1c7" MappedOutputType="None" Name="Promo code" ParentGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" ParentName="Replace Offer" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="a74dc627-4904-4487-b8f5-5f53512138b2" MappedOutputType="None" Name="Order Id" ParentGuid="05c5adf5-23e2-48c2-b53c-a07e5ff15fec" ParentName="Replace Offer" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="fe4bd048-0ac0-4b26-bac1-e57c142c9730" ItemType="RunSetConfig" CreatedBy="JGHODKE" Created="202005250955" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202005250956" />
+<RunSetConfig Guid="fe4bd048-0ac0-4b26-bac1-e57c142c9730" Name="IPTV Speed Change" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="53ffd243-fc3a-492f-9f6e-9a41e17f76e7" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="91c27882-5f3b-4faa-ad90-d5ca4db46a0d" AgentName="MyJavaApp - Agent 1" AppID="59492633-ac04-44b5-a00a-e3e433a455bc" AppName="MyJavaApp" Guid="6333aa7f-a87a-4945-80d8-ca7bb623ce36" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="3787aa3e-71a3-4338-a5ff-9190f65cca22" BusinessFlowInstanceGuid="05cbea7b-6268-44fa-9696-18137fbe4cc0" BusinessFlowIsActive="True" BusinessFlowName="Change Plan" Guid="ca4d091f-2fd6-4141-9a76-a72ddb7d4c44" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

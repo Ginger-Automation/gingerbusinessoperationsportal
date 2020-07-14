@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="b5cb79e4-da81-458c-84be-35ff9fe2c1e5" ItemType="RunSetConfig" CreatedBy="JGHODKE" Created="201912181441" GingerVersion="3.5.0.0" Version="78" LastUpdateBy="JGHODKE" LastUpdate="202005181307" />
+<RunSetConfig Guid="b5cb79e4-da81-458c-84be-35ff9fe2c1e5" Name="DTHToNjoi conversion" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="5a0ea223-0a9a-4b50-ae15-bd43316e26e6" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="StopAllBusinessFlows">
+<ApplicationAgents>
+<ApplicationAgent AgentID="91c27882-5f3b-4faa-ad90-d5ca4db46a0d" AgentName="MyJavaApp - Agent 1" AppID="59492633-ac04-44b5-a00a-e3e433a455bc" AppName="MyJavaApp" Guid="43188935-a904-49a6-9fe1-e52599e499f2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="05a04670-317c-4a50-ba78-9cb28b08cb83" BusinessFlowInstanceGuid="d9b2721b-4d71-4d0a-bda5-30d16550f914" BusinessFlowIsActive="True" BusinessFlowName="De-Install" Guid="023c0c1c-5842-4ea3-837e-30498e870506" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="0244b0e4-1793-4e0e-afd5-12b70b7ce2ed" BusinessFlowInstanceGuid="6cd70336-aefe-4f49-be1b-71893c1b86bd" BusinessFlowIsActive="True" BusinessFlowName="CreateNewNJOIAccount" Guid="a79afa4a-d9f2-4e40-9025-f98840147d04" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="4fa3ff4f-a45b-4a32-8588-e9ccb9db5093" BusinessFlowInstanceGuid="cac13d79-7360-48b6-ac46-c212acb996f7" BusinessFlowIsActive="True" BusinessFlowName="NJOI Provide" Guid="253420aa-a932-4feb-9f29-866c9a4dff1a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="cb1a4adb-7b81-46b4-aa68-339a8536709d" BusinessFlowInstanceGuid="2013e3ab-20d0-421a-8d9e-d8ed91c8e0ae" BusinessFlowIsActive="True" BusinessFlowName="Fullfillment" Guid="c83f2dc0-85d7-475b-b770-1e21f2b00cb3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="c1452cbd-1564-49e8-aedb-94157547c4c0" BusinessFlowInstanceGuid="8e4e125b-5cf8-4d2f-a235-2671781fb891" BusinessFlowIsActive="True" BusinessFlowName="Activation" Guid="07ba7666-166f-4e1c-8588-4a3424f3fca5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>

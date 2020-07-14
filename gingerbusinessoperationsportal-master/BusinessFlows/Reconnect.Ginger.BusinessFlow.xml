@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1812150e-65d4-41cd-b1d8-860ef648004c" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181349" GingerVersion="3.5.0.0" Version="33" LastUpdateBy="JGHODKE" LastUpdate="202002290647" />
+<BusinessFlow Elapsed="550" Guid="1812150e-65d4-41cd-b1d8-860ef648004c" Name="Reconnect" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="ef566bb6-6291-49da-acb8-a2dcf7a0bca8" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="4b5b56ff-ec76-4e1d-8a69-1c8b44974711" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f27b3bbf-22a6-485b-9dd9-ee3a9d67ad2e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="831b602c-0072-4482-9b8b-6b0dcc7bb075" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="FailActionAndStopBusinessFlow" Guid="293828ac-5895-4ddc-af54-c32dc67ed9f2" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="b1ebfc47-1992-4075-b430-32968891eb9e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActDummy Active="True" Description="Dummy Action" Guid="08b802bc-c1d8-4c6c-88f9-1a93c20fa325" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="StopBusinessFlow" Guid="89e22ca0-96fd-4e9e-a9d7-9a3ac0c63d02" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="b4ee8ee4-442d-4f7a-af4a-51f7e6902829" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActDummy Active="True" Description="Dummy Action" Guid="b0266767-c53b-4086-a4ba-6ae52107e07b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="ed6e366e-a46d-488f-a87b-6e9a87ea3522" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ef566bb6-6291-49da-acb8-a2dcf7a0bca8" ActivityName="New Activity" Guid="405c0644-d321-4133-a754-211935db9761" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f27b3bbf-22a6-485b-9dd9-ee3a9d67ad2e" ActivityName="Activity 1" Guid="d7ddd87c-03ca-4e16-9eeb-718cf8f0eb6b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="dc8e92db-ff57-46d1-b5fa-1aaa405e52f9" LastExecutingAgentName="MyJavaApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="f161d222-2b0a-4b2f-b405-3be5178be921" MappedOutputType="None" Name="Account Id" ParentGuid="1812150e-65d4-41cd-b1d8-860ef648004c" ParentName="Reconnect" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="781948d1-fa5a-4ae5-882b-456a7746335d" MappedOutputType="None" Name="SMC Number" ParentGuid="1812150e-65d4-41cd-b1d8-860ef648004c" ParentName="Reconnect" ParentType="Business Flow" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="f6d59dd9-4841-4ac1-b13a-9f27de92f5b6" MappedOutputType="None" Name="Order Id" ParentGuid="1812150e-65d4-41cd-b1d8-860ef648004c" ParentName="Reconnect" ParentType="Business Flow" Publish="True" SetAsInputValue="False" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

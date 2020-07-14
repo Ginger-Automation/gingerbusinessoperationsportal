@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cb1a4adb-7b81-46b4-aa68-339a8536709d" ItemType="BusinessFlow" CreatedBy="JGHODKE" Created="201912181348" GingerVersion="3.5.0.0" Version="15" LastUpdateBy="JGHODKE" LastUpdate="202002221146" />
+<BusinessFlow Description="*" Guid="cb1a4adb-7b81-46b4-aa68-339a8536709d" Name="Fullfillment" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="70fd2d92-9a3d-423a-8021-37684c7d3ffa" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="23fef9fe-1567-4d61-8c7c-5f71c8b57d75" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="d2ddae6a-56eb-417c-b571-35d5b352b361" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="70fd2d92-9a3d-423a-8021-37684c7d3ffa" ActivityName="Activity 1" Guid="4ceed17d-963c-42b9-a2c8-e5c1b9d44eb2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyJavaApp" Guid="221f048e-4d8c-4260-ae4a-06d7e73aa9b7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="9650c746-9b6b-4d7f-a295-aa460472fc3b" MappedOutputType="None" Name="Installer Id" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="3be5900a-b180-48ba-9915-0b8c7a651a81" MappedOutputType="None" Name="Case Id" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="43793c5f-700c-43ff-8218-eb81696fc378" MappedOutputType="None" Name="DMT Serial Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" SetAsOutputValue="False" />
+<VariableString Guid="c298e3b8-fd22-4e04-8027-e40cbc684098" MappedOutputType="None" Name="SMC Number" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

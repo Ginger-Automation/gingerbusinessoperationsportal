@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bc6c12ce-8233-48f4-a5a0-bf3657112939" ItemType="Activity" CreatedBy="JGHODKE" Created="202005270621" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202005270621" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Init Variables" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bc6c12ce-8233-48f4-a5a0-bf3657112939" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="89f037d8-e15d-4627-89af-8a9350242718" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="efa78e06-35ac-4a60-a671-f02fece3f6b3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="649f46ab-897e-4776-a9e2-97d14218f71a" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="gbl_Variable" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="82b34566-bd3d-410d-8dcb-867a47c4e8ef" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="a" />
+</InputValues>
+</ActSetVariableValue>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="b9fb38ed-f75a-43d8-9d4a-60ab5954ec41" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="bf Variable" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0a02e0b7-f182-4901-bfcb-6d6ff43ffab5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b" />
+</InputValues>
+</ActSetVariableValue>
+<ActSetVariableValue Active="True" Description="Set Variable Action" Guid="ab836790-b6ac-4957-a8b7-5937b2ffc993" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" VariableName="activityariable" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="687c23ae-5cca-4456-9fae-6c7b3ad2526e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="c" />
+</InputValues>
+</ActSetVariableValue>
+<ActDummy Active="True" Description="Dummy Action_Copy" Guid="2fd3e630-c83e-4693-8324-8a1c65676936" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="efa78e06-35ac-4a60-a671-f02fece3f6b3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+<ActDummy Active="True" Description="Dummy Action_Copy2" Guid="f719d1d2-71ae-41b2-8aeb-ccbdc264a75a" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="efa78e06-35ac-4a60-a671-f02fece3f6b3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+
+<Variables>
+<VariableString Guid="2105e796-c175-4119-9f19-22d8958de01f" MappedOutputType="None" Name="activityariable" ParentGuid="bc6c12ce-8233-48f4-a5a0-bf3657112939" ParentName="Flow 1\Group\Init Variables" ParentType="Activity" />
+<VariableString Guid="c3e4ecec-93bb-4f7c-a629-84f5c1255238" InitialStringValue="a" MappedOutputType="None" Name="gbl_Variable" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="6e51bb12-0c06-4ffb-920d-e510c63062b0" MappedOutputType="None" Name="bf Variable" ParentGuid="a8674478-6069-410a-9df9-a39c76821cc1" ParentName="Flow 1" ParentType="Business Flow" />
+</Variables>
+</Activity></GingerRepositoryItem>

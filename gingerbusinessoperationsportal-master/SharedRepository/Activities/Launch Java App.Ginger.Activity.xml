@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bd467038-2a0e-4cfc-b7bd-76cc07b543c6" ItemType="Activity" CreatedBy="JGHODKE" Created="202005270620" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202005270620" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch Java App" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bd467038-2a0e-4cfc-b7bd-76cc07b543c6" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActLaunchJavaWSApplication Active="True" AttachAgentProcessSyncTime="120" Description="Launch Java Application" Guid="17ce55b5-3ada-4421-bae0-54e24a2003e3" LaunchWithAgent="True" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" Port="8888" RetryMechanismInterval="5" StatusConverter="None" URL="C:\GingerSourceControl\Ginger_Regression_Testing\Documents\JavaTestApp.jar" WaitForWindowTitle="Java Swing" WaitForWindowTitleMaxTime="60" WaitForWindowWhenDoingLaunch="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6ee569c2-9416-49fd-860c-8b973225a8da" Param="PortConfigParam" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Manual" />
+</InputValues>
+</ActLaunchJavaWSApplication>
+</Acts>
+</Activity></GingerRepositoryItem>

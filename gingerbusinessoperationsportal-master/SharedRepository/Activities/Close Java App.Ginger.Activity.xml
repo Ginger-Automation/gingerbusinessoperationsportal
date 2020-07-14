@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c4631280-02ca-4144-b7b2-9a0c5d2cebfe" ItemType="Activity" CreatedBy="JGHODKE" Created="202005270620" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="JGHODKE" LastUpdate="202005270620" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Close Java App" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="c4631280-02ca-4144-b7b2-9a0c5d2cebfe" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp">
+<Acts>
+<ActWindow Active="True" Description="Close App" Guid="61efd72d-f425-4272-9a7f-5510971d895c" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" WaitVE="0" WindowActionType="Close" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="02c1eaac-f82c-4375-8e2a-ee830dac717c" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByTitle" />
+<ActInputValue Guid="820a72c3-a534-4fb9-ae74-bf0d685cacc4" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Java Swing Test App" />
+</InputValues>
+</ActWindow>
+</Acts>
+</Activity></GingerRepositoryItem>

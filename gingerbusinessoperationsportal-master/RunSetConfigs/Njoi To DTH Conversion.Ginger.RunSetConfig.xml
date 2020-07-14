@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="571bc38e-a7da-4e0f-b240-13d79ab0eaed" ItemType="RunSetConfig" CreatedBy="JGHODKE" Created="201912181442" GingerVersion="3.5.0.0" Version="5" LastUpdateBy="JGHODKE" LastUpdate="202002272000" />
+<RunSetConfig Guid="571bc38e-a7da-4e0f-b240-13d79ab0eaed" Name="Njoi To DTH Conversion" ParentGuid="00000000-0000-0000-0000-000000000000" Publish="True" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="cce7f072-6f34-4f59-9f7b-33c3297c0d93" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="StopAllBusinessFlows">
+<ApplicationAgents>
+<ApplicationAgent AgentID="91c27882-5f3b-4faa-ad90-d5ca4db46a0d" AgentName="MyJavaApp - Agent 1" AppID="59492633-ac04-44b5-a00a-e3e433a455bc" AppName="MyJavaApp" Guid="a3a772c5-082c-450f-aa78-1e6a1a49375d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="da10c863-7708-4251-a0e8-e7176b27e247" BusinessFlowInstanceGuid="cb66061c-3c69-48a9-88a9-be1a9c7680bb" BusinessFlowIsActive="True" BusinessFlowName="Disconnect" Guid="7cdc6eb5-ff9f-48e4-8b32-93c9358ffbd1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="05a04670-317c-4a50-ba78-9cb28b08cb83" BusinessFlowInstanceGuid="def586c8-d70a-47f2-9176-0ef780a2d547" BusinessFlowIsActive="True" BusinessFlowName="De-Install" Guid="36063604-dbab-446a-8864-94fbe4f23b0c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="f23a7ead-af3c-456a-8d2b-1ebff9451654" BusinessFlowInstanceGuid="8c2e923a-f11b-4ced-9c44-678dbbb1089d" BusinessFlowIsActive="True" BusinessFlowName="CreateNewDTHAccount" Guid="8487ab84-8554-4cdd-816b-5f2a34e560b4" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="756a712b-f157-45b5-8be1-274c9b89da5d" BusinessFlowInstanceGuid="3b68c36a-b84c-465c-ac13-7b021ed28e20" BusinessFlowIsActive="True" BusinessFlowName="Attach Order" Guid="d4b71e44-927f-41b7-ad84-8cb0c32a0fab" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="cb1a4adb-7b81-46b4-aa68-339a8536709d" BusinessFlowInstanceGuid="683c088a-ada0-45d6-bd3b-e79ca72372a2" BusinessFlowIsActive="True" BusinessFlowName="Fullfillment" Guid="017f8a6e-fcb8-48d7-a71b-3a656a5125a8" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="c1452cbd-1564-49e8-aedb-94157547c4c0" BusinessFlowInstanceGuid="f957326b-d92a-441b-9942-77b1619e14be" BusinessFlowIsActive="True" BusinessFlowName="Activation" Guid="bf995ae0-6658-4886-b19e-7c91315d2d6d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
